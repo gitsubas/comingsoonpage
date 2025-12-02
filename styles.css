@@ -128,6 +128,7 @@ a {
 
 /* Hero Image */
 .hero-image-container {
+    text-align: center;
     animation: fadeIn 1.5s ease-out;
     width: 100%;
 }
