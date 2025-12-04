@@ -135,7 +135,7 @@ a {
 
 .hero-image {
     max-width: 100%;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
@@ -343,13 +343,14 @@ a {
         padding: 1.5rem;
     }
 
-    .logo {
-        max-width: 150px;
+    .content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
-    .hero-image {
-        max-width: 300px;
-        margin: 0 auto;
+    .left-column,
+    .right-column {
+        width: 100%;
     }
 
     .contact-info {
@@ -378,15 +379,6 @@ a {
 }
 
 @media (max-width: 480px) {
-    .logo {
-        max-width: 120px;
-    }
-
-    .hero-image {
-        max-width: 250px;
-        margin: 0 auto;
-    }
-
     .tagline {
         font-size: 1rem;
     }
